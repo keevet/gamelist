@@ -25,7 +25,11 @@ private String genre;
 private String platforms;
 private Double score;
 private String imgUrl;
+
+@Column(columnDefinition = "TEXT")
 private String shortDescription;
+
+@Column(columnDefinition = "TEXT")
 private String longDescription;
 
 public Game() {
