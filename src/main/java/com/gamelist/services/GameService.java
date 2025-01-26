@@ -1,4 +1,4 @@
-package com.gamelist.dto.services;
+package com.gamelist.services;
 
 import java.util.List;
 

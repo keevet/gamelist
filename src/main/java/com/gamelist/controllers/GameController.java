@@ -1,4 +1,4 @@
-package com.gamelist.dto.controllers;
+package com.gamelist.controllers;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.gamelist.dto.GameMinDTO;
-import com.gamelist.dto.services.GameService;
+import com.gamelist.services.GameService;
 
 @RestController
 @RequestMapping(value = "/games")
